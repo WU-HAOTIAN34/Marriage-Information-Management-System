@@ -4,8 +4,8 @@ import java.sql.*;
 public class DBconn {
 	
 	static String url ="jdbc:mysql://127.0.0.1:3306/test?serverTimezone=PRC&characterEncoding=utf-8&useSSL=true&zeroDateTimeBehavior=convertToNull";
-	static String username = "root"; 
-	static String password = "wht20020930";
+	static String username = ""; 
+	static String password = "";
 	static Connection  conn = null;
 	static PreparedStatement pstmt =null;
 	static ResultSet rs = null;
